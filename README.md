@@ -3,7 +3,7 @@
 This repository provides ground-truth causal graphs for selected U.S. hurricanes, constructed using the Impact Chain concept, and validated through NOAA expert reports.
 
 ---
-## Background: Impact Chain Framework
+## Disaster Impact Chain Framework
 
 The **Impact Chain framework** is a standardized approach for analyzing cause–effect relationships in climate-related hazards. Introduced in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and extended by Pittore et al. (2023) for multi-hazard exposure modeling, it describes how environmental drivers lead to hazards, exposure, and impacts.
 
@@ -11,7 +11,7 @@ Here, the framework is applied to two hurricanes, focusing on hazard-to-impact r
 
 ---
 
-## Two Hurricane Causal Graphs
+## Causal Graphs for Two Hurricanes 
 
 Starting from a [Impact Chain for storm events](docs/impact_chain_for_storm.svg), we extract only those cause–effect links explicitly supported by NOAA’s Tropical Cyclone Reports. Validation emphasizes relationships such as flooding–injury and wind–damage connections.
 

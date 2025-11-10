@@ -3,40 +3,25 @@
 This repository provides ground-truth causal graphs for selected U.S. hurricanes, constructed using the **Impact Chain concept** from Pittore et al. (2023) and Zebisch et al. (2021), and validated through expert NOAA reports.
 
 ---
+## Overview: Impact Chain
 
-## Overview
+The causal graphs in this repository are based on the **Impact Chain framework**—a standardized approach for analyzing cause–effect relationships in climate-related hazards.  
+Originally introduced in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and later extended by Pittore et al. (2023) for multi-hazard exposure modeling, the framework systematically describes how environmental drivers lead to hazards, exposure, and impacts.
 
-Each causal graph represents relationships between **hazards**, **exposure**, and **risk factors** such as injuries and property damage.  
-Vulnerability components are excluded due to their complexity and the difficulty of consistent expert validation across events.
-
-Validation focuses on **direct causal relationships** explicitly described in the NOAA Tropical Cyclone Reports—such as the links between flooding and fatalities, or wind intensity and structural damage.
-
----
-
-## Impact Chain Template
-
-A generic Impact Chain template is provided in the `docs/` folder as both a Graphviz source (`impact_chain_for_storm.dot`) and an SVG rendering (`impact_chain_for_storm.svg`).  
-It illustrates the conceptual framework used to derive each hurricane-specific causal graph.
+In this repository, the framework is applied to two hurricane events, linking the hazards to their resulting risks.
+Vulnerability components are not included, due to their complexity and the challenge of achieving consistent expert validation across different events.
 
 ---
 
 ## Hurricane Causal Graphs
+We start from the [generic Impact Chain for storm events](docs/impact_chain_for_storm.svg) and refine it by filtering only those cause–effect relationships that are explicitly supported by evidence in NOAA’s Tropical Cyclone Reports.  
+Validation focuses on causal relationships explicitly documented in NOAA’s reports—such as links between flooding and injuries or between wind intensity and structural damage.
 
 | Hurricane | Causal Graph | Graphviz Source | Evidence Summary | NOAA Report |
 |------------|---------------|-----------------|------------------|--------------|
 | Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/hurricane_harvey_causal_graph.svg) | [DOT](data/hurricane_harvey/hurricane_harvey_causal_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
 | Irma (2017) | ![Irma Graph](data/hurricane_irma/hurricane_irma_causal_graph.svg) | [DOT](data/hurricane_irma/hurricane_irma_causal_graph.dot) | [Summary](data/hurricane_irma/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf) |
 
-Additional hurricanes will be added as validation is completed.
-
----
-
-## Methodological Background
-
-The causal graphs follow the **Impact Chain framework**, a standardized approach for analyzing cause–effect relationships in climate-related hazards.  
-Originally formalized in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and further extended by Pittore et al. (2023) for multi-hazard exposure modeling, the framework structures how environmental drivers lead to hazards, exposure, and impacts.
-
-In this repository, the framework is applied in a simplified form specific to tropical cyclones, linking meteorological drivers to observed hazards and resulting socioeconomic consequences, as reported by NOAA.
 
 ---
 

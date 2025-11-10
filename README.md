@@ -7,8 +7,7 @@ This repository provides ground-truth causal graphs for selected U.S. hurricanes
 
 The **Impact Chain framework** is a standardized approach for analyzing cause–effect relationships in climate-related hazards. Introduced in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and extended by Pittore et al. (2023) for multi-hazard exposure modeling, it describes how environmental drivers lead to hazards, exposure, and impacts.
 
-Here, the framework is applied to two hurricanes, focusing on hazard-to-impact relationships.  
-Vulnerability components are excluded due to validation challenges across events.
+Here, the framework is applied to two hurricanes, focusing on hazard-to-impact relationships. Note that vulnerability components are excluded due to challenges to obtain expert level knowledges from the impact chain framework.
 
 ---
 

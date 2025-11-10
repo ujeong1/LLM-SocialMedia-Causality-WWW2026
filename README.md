@@ -8,7 +8,7 @@ This repository provides ground-truth causal graphs for selected U.S. hurricanes
 The causal graphs in this repository are based on the **Impact Chain framework**—a standardized approach for analyzing cause–effect relationships in climate-related hazards.  
 Originally introduced in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and later extended by Pittore et al. (2023) for multi-hazard exposure modeling, the framework systematically describes how environmental drivers lead to hazards, exposure, and impacts.
 
-In this repository, the framework is applied to two hurricane events, linking the hazards to their resulting risks.
+In this repository, the framework is applied to two hurricane events, linking the hazards to their resulting risks.  
 Vulnerability components are not included, due to their complexity and the challenge of achieving consistent expert validation across different events.
 
 ---
@@ -21,7 +21,6 @@ Validation focuses on causal relationships explicitly documented in NOAA’s rep
 |------------|---------------|-----------------|------------------|--------------|
 | Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/hurricane_harvey_causal_graph.svg) | [DOT](data/hurricane_harvey/hurricane_harvey_causal_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
 | Irma (2017) | ![Irma Graph](data/hurricane_irma/hurricane_irma_causal_graph.svg) | [DOT](data/hurricane_irma/hurricane_irma_causal_graph.dot) | [Summary](data/hurricane_irma/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf) |
-
 
 ---
 
@@ -43,4 +42,3 @@ Validation focuses on causal relationships explicitly documented in NOAA’s rep
 - Cangialosi, J. P., et al. (2021).  
   *National Hurricane Center Tropical Cyclone Report: Hurricane Irma (AL112017).*  
   [https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf)
-

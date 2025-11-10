@@ -17,8 +17,8 @@ Starting from a [Impact Chain for storm events](docs/impact_chain_for_storm.svg)
 
 | Hurricane | Causal Graph | Graphviz Source | Evidence Summary | NOAA Report |
 |------------|---------------|-----------------|------------------|--------------|
-| Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/hurricane_harvey_causal_graph.svg) | [DOT](data/hurricane_harvey/hurricane_harvey_causal_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
 | Irma (2017) | ![Irma Graph](data/hurricane_irma/hurricane_irma_causal_graph.svg) | [DOT](data/hurricane_irma/hurricane_irma_causal_graph.dot) | [Summary](data/hurricane_irma/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf) |
+| Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/hurricane_harvey_causal_graph.svg) | [DOT](data/hurricane_harvey/hurricane_harvey_causal_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
 
 ---
 

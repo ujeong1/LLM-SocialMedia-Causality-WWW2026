@@ -23,6 +23,7 @@ This document summarizes **directly mentioned cause–effect relations** between
 | **Strong winds → Infrastructure damage** | “Strong winds damaged the airport infrastructure, and runways were inundated.” (South Carolina) | 【9:12†AL112017_Irma.pdf†L2-L3】 |
 | **Damage to buildings → Injuries / deaths** | “Two men died when their home collapsed on them in Havana.” | 【9:7†AL112017_Irma.pdf†L2-L3】 |
 
+---
 
 **Source:**  
 Cangialosi, J. P., Latto, A. S., & Berg, R. (2021). *National Hurricane Center Tropical Cyclone Report: Hurricane Irma (AL112017)*, NOAA/NWS/NHC, 24 Sept 2021.

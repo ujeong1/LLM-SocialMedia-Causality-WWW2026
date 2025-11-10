@@ -15,7 +15,7 @@ Validation focuses on **direct causal relationships** explicitly described in th
 
 ## Impact Chain Template
 
-A generic Impact Chain template is provided in the `docs/` folder as both a Graphviz source (`impact_chain_template.dot`) and an SVG rendering (`impact_chain_template.svg`).  
+A generic Impact Chain template is provided in the `docs/` folder as both a Graphviz source (`impact_chain_for_storm.dot`) and an SVG rendering (`impact_chain_for_storm.svg`).  
 It illustrates the conceptual framework used to derive each hurricane-specific causal graph.
 
 ---

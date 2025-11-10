@@ -22,15 +22,5 @@ This document summarizes **directly mentioned cause–effect relations** between
 
 ---
 
-### ✅ Summary
-The NOAA Harvey report documents a clear sequence of cause–effect chains dominated by **heavy rainfall and flooding**.  
-Key directly mentioned cascades include:
-
-- **Heavy rain → Flooding → Road / Building / Power disruption → Injuries & fatalities**  
-- **Strong wind → Tree felling → Power loss → Indirect fatalities (electrocution, isolation)**  
-- **Wind damage (collapsing structures) → Direct injuries or deaths**
-
----
-
 **Source:**  
 Blake, E. S., & Zelinsky, D. A. (2018). *National Hurricane Center Tropical Cyclone Report: Hurricane Harvey (AL092017)*, NOAA/NWS/NHC, 9 May 2018.

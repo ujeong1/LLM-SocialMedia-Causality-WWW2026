@@ -1,21 +1,22 @@
 # LLM-SocialMedia-Causality: Ground-Truth Hurricane Causal Graphs
 
-This repository provides ground-truth causal graphs for selected U.S. hurricanes, constructed using the **Impact Chain concept** from Pittore et al. (2023) and Zebisch et al. (2021), and validated through expert NOAA reports.
+This repository provides ground-truth causal graphs for selected U.S. hurricanes, constructed using the Impact Chain concept, and validated through NOAA expert reports.
 
 ---
-## Overview: Impact Chain
+## Background: Impact Chain Framework
 
-The causal graphs in this repository are based on the **Impact Chain framework**—a standardized approach for analyzing cause–effect relationships in climate-related hazards.  
-Originally introduced in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and later extended by Pittore et al. (2023) for multi-hazard exposure modeling, the framework systematically describes how environmental drivers lead to hazards, exposure, and impacts.
+The **Impact Chain framework** is a standardized approach for analyzing cause–effect relationships in climate-related hazards.  
+Introduced in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and extended by Pittore et al. (2023) for multi-hazard exposure modeling, it describes how environmental drivers lead to hazards, exposure, and impacts.
 
-In this repository, the framework is applied to two hurricane events, linking the hazards to their resulting risks.  
-Vulnerability components are not included, due to their complexity and the challenge of achieving consistent expert validation across different events.
+Here, the framework is applied to two hurricanes, focusing on hazard-to-impact relationships.  
+Vulnerability components are excluded due to validation challenges across events.
 
 ---
 
-## Hurricane Causal Graphs
-We start from the [generic Impact Chain for storm events](docs/impact_chain_for_storm.svg) and refine it by filtering only those cause–effect relationships that are explicitly supported by evidence in NOAA’s Tropical Cyclone Reports.  
-Validation focuses on causal relationships explicitly documented in NOAA’s reports—such as links between flooding and injuries or between wind intensity and structural damage.
+## Two Hurricane Causal Graphs
+
+Starting from the [generic Impact Chain for storm events](docs/impact_chain_for_storm.svg), we extract only those cause–effect links explicitly supported by NOAA’s Tropical Cyclone Reports.  
+Validation emphasizes relationships such as flooding–injury and wind–damage connections.
 
 | Hurricane | Causal Graph | Graphviz Source | Evidence Summary | NOAA Report |
 |------------|---------------|-----------------|------------------|--------------|
@@ -26,7 +27,7 @@ Validation focuses on causal relationships explicitly documented in NOAA’s rep
 
 ## References
 
-- Pittore, M., Campalani, P., Renner, K., Tagliavini, F., & others (2023).  
+- Pittore, M., Campalani, P., Renner, K., Tagliavini, F., et al. (2023).  
   *Border-independent multi-functional, multi-hazard exposure modelling in Alpine regions.*  
   *Natural Hazards, 119(2), 1–22.*  
   [https://doi.org/10.1007/s11069-023-06134-3](https://doi.org/10.1007/s11069-023-06134-3)

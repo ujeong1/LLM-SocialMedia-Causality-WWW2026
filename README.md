@@ -14,7 +14,7 @@ Vulnerability components are excluded due to validation challenges across events
 
 ## Two Hurricane Causal Graphs
 
-Starting from the [generic Impact Chain for storm events](docs/impact_chain_for_storm.svg), we extract only those cause–effect links explicitly supported by NOAA’s Tropical Cyclone Reports. Validation emphasizes relationships such as flooding–injury and wind–damage connections.
+Starting from a [Impact Chain for storm events](docs/impact_chain_for_storm.svg), we extract only those cause–effect links explicitly supported by NOAA’s Tropical Cyclone Reports. Validation emphasizes relationships such as flooding–injury and wind–damage connections.
 
 | Hurricane | Causal Graph | Graphviz Source | Evidence Summary | NOAA Report |
 |------------|---------------|-----------------|------------------|--------------|

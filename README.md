@@ -24,8 +24,8 @@ It illustrates the conceptual framework used to derive each hurricane-specific c
 
 | Hurricane | Causal Graph | Graphviz Source | Evidence Summary | NOAA Report |
 |------------|---------------|-----------------|------------------|--------------|
-| Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/harvey_graph.svg) | [DOT](data/hurricane_harvey/harvey_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
-| Irma (2017) | ![Irma Graph](data/hurricane_irma/irma_graph.svg) | [DOT](data/hurricane_irma/irma_graph.dot) | [Summary](data/hurricane_irma/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf) |
+| Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/harvey_causal_graph.svg) | [DOT](data/hurricane_harvey/harvey_causal_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
+| Irma (2017) | ![Irma Graph](data/hurricane_irma/irma_causal_graph.svg) | [DOT](data/hurricane_irma/irma_causal_graph.dot) | [Summary](data/hurricane_irma/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf) |
 
 Additional hurricanes will be added as validation is completed.
 

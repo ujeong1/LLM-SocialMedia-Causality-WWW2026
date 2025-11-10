@@ -32,7 +32,8 @@ Starting from the [generic Impact Chain for storm events](docs/impact_chain_for_
 
 - Zebisch, M., Schneiderbauer, S., Fritzsche, K., Bubeck, P., Kienberger, S., Kahlenborn, W., Schwan, S., & Below, T. (2021).  
   *The vulnerability sourcebook and climate impact chains — a standardised framework for a climate vulnerability and risk assessment.*  
-  *International Journal of Climate Change Strategies and Management, 13(1), 35–59.*
+  *International Journal of Climate Change Strategies and Management, 13(1), 35–59.*  
+  [https://doi.org/10.1108/IJCCSM-06-2019-0031](https://doi.org/10.1108/IJCCSM-06-2019-0031)
 
 - Cangialosi, J. P., et al. (2018).  
   *National Hurricane Center Tropical Cyclone Report: Hurricane Harvey (AL092017).*  

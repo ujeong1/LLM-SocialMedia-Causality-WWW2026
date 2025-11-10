@@ -34,10 +34,11 @@ Starting from a [Impact Chain for storm events](docs/impact_chain_for_storm.svg)
   *International Journal of Climate Change Strategies and Management, 13(1), 35–59.*  
   [https://doi.org/10.1108/IJCCSM-06-2019-0031](https://doi.org/10.1108/IJCCSM-06-2019-0031)
 
-- Cangialosi, J. P., et al. (2018).  
-  *National Hurricane Center Tropical Cyclone Report: Hurricane Harvey (AL092017).*  
-  [https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf)
 
 - Cangialosi, J. P., et al. (2021).  
   *National Hurricane Center Tropical Cyclone Report: Hurricane Irma (AL112017).*  
   [https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf)
+
+- Cangialosi, J. P., et al. (2018).  
+  *National Hurricane Center Tropical Cyclone Report: Hurricane Harvey (AL092017).*  
+  [https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf)

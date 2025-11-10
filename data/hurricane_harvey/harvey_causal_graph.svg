@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="559pt" height="134pt" viewBox="0.00 0.00 559.00 134.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 129.69)">
+<title>HurricaneHarvey_NOAA</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-129.69 555.18,-129.69 555.18,4 -4,4"/>
+<!-- Heavy rain -->
+<g id="node1" class="node">
+<title>Heavy rain</title>
+<path fill="none" stroke="black" d="M50.66,-36.69C50.66,-36.69 14.51,-36.69 14.51,-36.69 8.51,-36.69 2.51,-30.69 2.51,-24.69 2.51,-24.69 2.51,-12.69 2.51,-12.69 2.51,-6.69 8.51,-0.69 14.51,-0.69 14.51,-0.69 50.66,-0.69 50.66,-0.69 56.66,-0.69 62.66,-6.69 62.66,-12.69 62.66,-12.69 62.66,-24.69 62.66,-24.69 62.66,-30.69 56.66,-36.69 50.66,-36.69"/>
+<text xml:space="preserve" text-anchor="middle" x="32.58" y="-15.69" font-family="Times,serif" font-size="10.00">Heavy rain</text>
+</g>
+<!-- Flooding -->
+<g id="node8" class="node">
+<title>Flooding</title>
+<path fill="none" stroke="black" d="M154.44,-36.69C154.44,-36.69 124.44,-36.69 124.44,-36.69 118.44,-36.69 112.44,-30.69 112.44,-24.69 112.44,-24.69 112.44,-12.69 112.44,-12.69 112.44,-6.69 118.44,-0.69 124.44,-0.69 124.44,-0.69 154.44,-0.69 154.44,-0.69 160.44,-0.69 166.44,-6.69 166.44,-12.69 166.44,-12.69 166.44,-24.69 166.44,-24.69 166.44,-30.69 160.44,-36.69 154.44,-36.69"/>
+<text xml:space="preserve" text-anchor="middle" x="139.44" y="-15.69" font-family="Times,serif" font-size="10.00">Flooding</text>
+</g>
+<!-- Heavy rain&#45;&gt;Flooding -->
+<g id="edge1" class="edge">
+<title>Heavy rain-&gt;Flooding</title>
+<path fill="none" stroke="black" d="M63.07,-18.69C74.73,-18.69 88.28,-18.69 100.64,-18.69"/>
+<polygon fill="black" stroke="black" points="100.52,-22.19 110.52,-18.69 100.52,-15.19 100.52,-22.19"/>
+</g>
+<!-- Strong wind -->
+<g id="node2" class="node">
+<title>Strong wind</title>
+<path fill="none" stroke="black" d="M53.17,-113.69C53.17,-113.69 12,-113.69 12,-113.69 6,-113.69 0,-107.69 0,-101.69 0,-101.69 0,-89.69 0,-89.69 0,-83.69 6,-77.69 12,-77.69 12,-77.69 53.17,-77.69 53.17,-77.69 59.17,-77.69 65.17,-83.69 65.17,-89.69 65.17,-89.69 65.17,-101.69 65.17,-101.69 65.17,-107.69 59.17,-113.69 53.17,-113.69"/>
+<text xml:space="preserve" text-anchor="middle" x="32.58" y="-92.69" font-family="Times,serif" font-size="10.00">Strong wind</text>
+</g>
+<!-- Felling of trees -->
+<g id="node7" class="node">
+<title>Felling of trees</title>
+<path fill="none" stroke="black" d="M165.71,-113.69C165.71,-113.69 113.17,-113.69 113.17,-113.69 107.17,-113.69 101.17,-107.69 101.17,-101.69 101.17,-101.69 101.17,-89.69 101.17,-89.69 101.17,-83.69 107.17,-77.69 113.17,-77.69 113.17,-77.69 165.71,-77.69 165.71,-77.69 171.71,-77.69 177.71,-83.69 177.71,-89.69 177.71,-89.69 177.71,-101.69 177.71,-101.69 177.71,-107.69 171.71,-113.69 165.71,-113.69"/>
+<text xml:space="preserve" text-anchor="middle" x="139.44" y="-92.69" font-family="Times,serif" font-size="10.00">Felling of trees</text>
+</g>
+<!-- Strong wind&#45;&gt;Felling of trees -->
+<g id="edge6" class="edge">
+<title>Strong wind-&gt;Felling of trees</title>
+<path fill="none" stroke="black" d="M65.61,-95.69C73.15,-95.69 81.34,-95.69 89.43,-95.69"/>
+<polygon fill="black" stroke="black" points="89.2,-99.19 99.2,-95.69 89.2,-92.19 89.2,-99.19"/>
+</g>
+<!-- Road disruption -->
+<g id="node3" class="node">
+<title>Road disruption</title>
+<path fill="none" stroke="black" d="M417.2,-52.69C417.2,-52.69 361.03,-52.69 361.03,-52.69 355.03,-52.69 349.03,-46.69 349.03,-40.69 349.03,-40.69 349.03,-28.69 349.03,-28.69 349.03,-22.69 355.03,-16.69 361.03,-16.69 361.03,-16.69 417.2,-16.69 417.2,-16.69 423.2,-16.69 429.2,-22.69 429.2,-28.69 429.2,-28.69 429.2,-40.69 429.2,-40.69 429.2,-46.69 423.2,-52.69 417.2,-52.69"/>
+<text xml:space="preserve" text-anchor="middle" x="389.11" y="-31.69" font-family="Times,serif" font-size="10.00">Road disruption</text>
+</g>
+<!-- Injuries to people -->
+<g id="node6" class="node">
+<title>Injuries to people</title>
+<path fill="none" stroke="black" d="M539.18,-52.69C539.18,-52.69 477.2,-52.69 477.2,-52.69 471.2,-52.69 465.2,-46.69 465.2,-40.69 465.2,-40.69 465.2,-28.69 465.2,-28.69 465.2,-22.69 471.2,-16.69 477.2,-16.69 477.2,-16.69 539.18,-16.69 539.18,-16.69 545.18,-16.69 551.18,-22.69 551.18,-28.69 551.18,-28.69 551.18,-40.69 551.18,-40.69 551.18,-46.69 545.18,-52.69 539.18,-52.69"/>
+<text xml:space="preserve" text-anchor="middle" x="508.19" y="-31.69" font-family="Times,serif" font-size="10.00">Injuries to people</text>
+</g>
+<!-- Road disruption&#45;&gt;Injuries to people -->
+<g id="edge9" class="edge">
+<title>Road disruption-&gt;Injuries to people</title>
+<path fill="none" stroke="black" d="M429.42,-34.69C437.19,-34.69 445.46,-34.69 453.61,-34.69"/>
+<polygon fill="black" stroke="black" points="453.46,-38.19 463.46,-34.69 453.46,-31.19 453.46,-38.19"/>
+</g>
+<!-- Power disruption -->
+<g id="node4" class="node">
+<title>Power disruption</title>
+<path fill="none" stroke="black" d="M293.68,-71.69C293.68,-71.69 233.07,-71.69 233.07,-71.69 227.07,-71.69 221.07,-65.69 221.07,-59.69 221.07,-59.69 221.07,-47.69 221.07,-47.69 221.07,-41.69 227.07,-35.69 233.07,-35.69 233.07,-35.69 293.68,-35.69 293.68,-35.69 299.68,-35.69 305.68,-41.69 305.68,-47.69 305.68,-47.69 305.68,-59.69 305.68,-59.69 305.68,-65.69 299.68,-71.69 293.68,-71.69"/>
+<text xml:space="preserve" text-anchor="middle" x="263.37" y="-50.69" font-family="Times,serif" font-size="10.00">Power disruption</text>
+</g>
+<!-- Power disruption&#45;&gt;Road disruption -->
+<g id="edge10" class="edge">
+<title>Power disruption-&gt;Road disruption</title>
+<path fill="none" stroke="black" d="M305.92,-47.31C316.03,-45.76 326.95,-44.08 337.42,-42.47"/>
+<polygon fill="black" stroke="black" points="337.71,-45.97 347.06,-40.99 336.65,-39.05 337.71,-45.97"/>
+</g>
+<!-- Damage to buildings -->
+<g id="node5" class="node">
+<title>Damage to buildings</title>
+<path fill="none" stroke="black" d="M301.03,-125.69C301.03,-125.69 225.71,-125.69 225.71,-125.69 219.71,-125.69 213.71,-119.69 213.71,-113.69 213.71,-113.69 213.71,-101.69 213.71,-101.69 213.71,-95.69 219.71,-89.69 225.71,-89.69 225.71,-89.69 301.03,-89.69 301.03,-89.69 307.03,-89.69 313.03,-95.69 313.03,-101.69 313.03,-101.69 313.03,-113.69 313.03,-113.69 313.03,-119.69 307.03,-125.69 301.03,-125.69"/>
+<text xml:space="preserve" text-anchor="middle" x="263.37" y="-104.69" font-family="Times,serif" font-size="10.00">Damage to buildings</text>
+</g>
+<!-- Damage to buildings&#45;&gt;Injuries to people -->
+<g id="edge11" class="edge">
+<title>Damage to buildings-&gt;Injuries to people</title>
+<path fill="none" stroke="black" d="M313.28,-94.88C346.2,-86.06 390.49,-73.78 429.2,-61.69 437.28,-59.17 445.79,-56.37 454.09,-53.56"/>
+<polygon fill="black" stroke="black" points="455.08,-56.92 463.41,-50.37 452.82,-50.3 455.08,-56.92"/>
+</g>
+<!-- Felling of trees&#45;&gt;Power disruption -->
+<g id="edge7" class="edge">
+<title>Felling of trees-&gt;Power disruption</title>
+<path fill="none" stroke="black" d="M178.02,-82.75C188.2,-79.24 199.41,-75.38 210.23,-71.65"/>
+<polygon fill="black" stroke="black" points="211.14,-75.04 219.45,-68.47 208.86,-68.42 211.14,-75.04"/>
+</g>
+<!-- Felling of trees&#45;&gt;Damage to buildings -->
+<g id="edge8" class="edge">
+<title>Felling of trees-&gt;Damage to buildings</title>
+<path fill="none" stroke="black" d="M178.02,-99.39C185.72,-100.15 194,-100.96 202.26,-101.77"/>
+<polygon fill="black" stroke="black" points="201.66,-105.23 211.95,-102.73 202.34,-98.27 201.66,-105.23"/>
+</g>
+<!-- Flooding&#45;&gt;Road disruption -->
+<g id="edge2" class="edge">
+<title>Flooding-&gt;Road disruption</title>
+<path fill="none" stroke="black" d="M166.79,-19.42C200.66,-20.47 261.29,-22.74 313.03,-26.69 320.94,-27.29 329.3,-28.06 337.46,-28.88"/>
+<polygon fill="black" stroke="black" points="336.98,-32.35 347.29,-29.9 337.71,-25.38 336.98,-32.35"/>
+</g>
+<!-- Flooding&#45;&gt;Power disruption -->
+<g id="edge4" class="edge">
+<title>Flooding-&gt;Power disruption</title>
+<path fill="none" stroke="black" d="M166.9,-26.29C179.52,-29.91 195.09,-34.38 209.97,-38.65"/>
+<polygon fill="black" stroke="black" points="208.59,-41.89 219.17,-41.29 210.52,-35.17 208.59,-41.89"/>
+</g>
+<!-- Flooding&#45;&gt;Damage to buildings -->
+<g id="edge3" class="edge">
+<title>Flooding-&gt;Damage to buildings</title>
+<path fill="none" stroke="black" d="M160.12,-37.18C174.4,-50.13 194.52,-67.43 213.71,-80.69 215.05,-81.62 216.43,-82.54 217.83,-83.45"/>
+<polygon fill="black" stroke="black" points="215.68,-86.24 226.03,-88.53 219.37,-80.29 215.68,-86.24"/>
+</g>
+<!-- Flooding&#45;&gt;Injuries to people -->
+<g id="edge5" class="edge">
+<title>Flooding-&gt;Injuries to people</title>
+<path fill="none" stroke="black" d="M166.55,-14.16C217.48,-6.11 333.47,8.41 429.2,-7.69 437.45,-9.08 446,-11.24 454.27,-13.75"/>
+<polygon fill="black" stroke="black" points="452.92,-16.99 463.51,-16.74 455.08,-10.33 452.92,-16.99"/>
+</g>
+</g>
+</svg>

@@ -1,1 +1,61 @@
-# LLM-SocialMedia-Causality-WWW2026
+# LLM-SocialMedia-Causality: Ground-Truth Hurricane Causal Graphs
+
+This repository provides ground-truth causal graphs for selected U.S. hurricanes, constructed using the **Impact Chain concept** from Pittore et al. (2023) and Zebisch et al. (2021), and validated through expert NOAA reports.
+
+---
+
+## Overview
+
+Each causal graph represents relationships between **hazards**, **exposure**, and **risk factors** such as injuries and property damage.  
+Vulnerability components are excluded due to their complexity and the difficulty of consistent expert validation across events.
+
+Validation focuses on **direct causal relationships** explicitly described in the NOAA Tropical Cyclone Reports—such as the links between flooding and fatalities, or wind intensity and structural damage.
+
+---
+
+## Impact Chain Template
+
+A generic Impact Chain template is provided in the `docs/` folder as both a Graphviz source (`impact_chain_template.dot`) and an SVG rendering (`impact_chain_template.svg`).  
+It illustrates the conceptual framework used to derive each hurricane-specific causal graph.
+
+---
+
+## Hurricane Causal Graphs
+
+| Hurricane | Causal Graph | Graphviz Source | Evidence Summary | NOAA Report |
+|------------|---------------|-----------------|------------------|--------------|
+| Harvey (2017) | ![Harvey Graph](data/hurricane_harvey/harvey_graph.svg) | [DOT](data/hurricane_harvey/harvey_graph.dot) | [Summary](data/hurricane_harvey/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf) |
+| Irma (2017) | ![Irma Graph](data/hurricane_irma/irma_graph.svg) | [DOT](data/hurricane_irma/irma_graph.dot) | [Summary](data/hurricane_irma/evidence_summary.md) | [NOAA Report](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf) |
+
+Additional hurricanes will be added as validation is completed.
+
+---
+
+## Methodological Background
+
+The causal graphs follow the **Impact Chain framework**, a standardized approach for analyzing cause–effect relationships in climate-related hazards.  
+Originally formalized in the *Vulnerability Sourcebook* (Zebisch et al., 2021) and further extended by Pittore et al. (2023) for multi-hazard exposure modeling, the framework structures how environmental drivers lead to hazards, exposure, and impacts.
+
+In this repository, the framework is applied in a simplified form specific to tropical cyclones, linking meteorological drivers to observed hazards and resulting socioeconomic consequences, as reported by NOAA.
+
+---
+
+## References
+
+- Pittore, M., Campalani, P., Renner, K., Tagliavini, F., & others (2023).  
+  *Border-independent multi-functional, multi-hazard exposure modelling in Alpine regions.*  
+  *Natural Hazards, 119(2), 1–22.*  
+  [https://doi.org/10.1007/s11069-023-06134-3](https://doi.org/10.1007/s11069-023-06134-3)
+
+- Zebisch, M., Schneiderbauer, S., Fritzsche, K., Bubeck, P., Kienberger, S., Kahlenborn, W., Schwan, S., & Below, T. (2021).  
+  *The vulnerability sourcebook and climate impact chains — a standardised framework for a climate vulnerability and risk assessment.*  
+  *International Journal of Climate Change Strategies and Management, 13(1), 35–59.*
+
+- Cangialosi, J. P., et al. (2018).  
+  *National Hurricane Center Tropical Cyclone Report: Hurricane Harvey (AL092017).*  
+  [https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf](https://www.nhc.noaa.gov/data/tcr/AL092017_Harvey.pdf)
+
+- Cangialosi, J. P., et al. (2021).  
+  *National Hurricane Center Tropical Cyclone Report: Hurricane Irma (AL112017).*  
+  [https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf](https://www.nhc.noaa.gov/data/tcr/AL112017_Irma.pdf)
+

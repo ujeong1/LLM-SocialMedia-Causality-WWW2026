@@ -1,0 +1,75 @@
+digraph RiskAssessment {
+    rankdir=TB; // top-to-bottom layout instead of left-to-right
+    node [shape=box, style=rounded, fontsize=10];
+
+    subgraph cluster_hazards {
+        label="Hazards";
+        color=lightblue;
+        rank=source; // places this cluster higher
+        "Heavy rain";
+        "Strong wind";
+    }
+
+    subgraph cluster_intermediate {
+        label="Intermediate impacts";
+        color=lightgray;
+    }
+
+    subgraph cluster_exposure {
+        label="Exposure";
+        color=gold;
+        rank=sink; // places this cluster lower
+        "Population";
+        "Residential buildings";
+        "Road infrastructure";
+        "Transport function";
+        "Protective Forest";
+    }
+
+    // Your existing edges below...
+    "Heavy rain" -> "Increase of landslides hazard";
+    "Heavy rain" -> "Pluvial (flash) flood";
+    "Heavy rain" -> "River floods";
+    "Heavy rain" -> "Felling of trees";
+    "Strong wind" -> "Increase of landslides hazard";
+    "Strong wind" -> "Pluvial (flash) flood";
+    "Strong wind" -> "River floods";
+    "Strong wind" -> "Felling of trees";
+
+    "Increase of landslides hazard" -> "Triggered landslides and debris flows";
+    "Triggered landslides and debris flows" -> "Damage to buildings";
+    "Triggered landslides and debris flows" -> "Railway disruption";
+
+    "Pluvial (flash) flood" -> "Road disruption";
+    "Pluvial (flash) flood" -> "Injuries to people";
+    
+    "River floods" -> "Damage to buildings";
+    "River floods" -> "Road disruption";
+    
+    "Felling of trees" -> "Increase of landslides hazard";
+    "Felling of trees" -> "Damage to Forest Roads";
+    "Felling of trees" -> "Road disruption";
+    "Felling of trees" -> "Road accidents";
+    "Felling of trees" -> "Injuries to people";
+    "Felling of trees" -> "Power disruption";
+    "Felling of trees" -> "Railway disruption";
+
+    "Road disruption" -> "Disruption of SAR services";
+    "Road disruption" -> "Road accidents";
+    
+    "Disruption of SAR services" -> "Injuries to people";
+    "Road accidents" -> "Injuries to people";
+    "Damage to buildings" -> "Injuries to people";
+    "Power disruption" -> "Railway disruption";
+    "Railway disruption" -> "Injuries to people";
+
+    "Residential buildings" -> "Damage to buildings";
+    "Protective Forest" -> "Felling of trees";
+    "Road infrastructure" -> "Power disruption";
+    "Power disruption" -> "Road accidents";
+    "Road accidents" -> "Damage to Forest Roads";
+    "Transport function" -> "Railway disruption";
+    "Railway disruption" -> "Road disruption";
+    "Population" -> "Injuries to people";
+}
+

@@ -1,0 +1,24 @@
+digraph HurricaneHarvey_NOAA {
+    rankdir=LR;
+    node [shape=box, style=rounded, fontsize=10];
+
+    "Heavy rain";
+    "Strong wind";
+    "Road disruption";
+    "Power disruption";
+    "Damage to buildings";
+    "Injuries to people";
+    "Felling of trees";
+    "Heavy rain" -> "Flooding";
+    "Flooding" -> "Road disruption";
+    "Flooding" -> "Damage to buildings";
+    "Flooding" -> "Power disruption";
+    "Flooding" -> "Injuries to people";
+    "Strong wind" -> "Felling of trees";
+    "Felling of trees" -> "Power disruption";
+    "Felling of trees" -> "Damage to buildings";
+    "Road disruption" -> "Injuries to people";
+    "Power disruption" -> "Road disruption";
+    "Damage to buildings"-> "Injuries to people";
+}
+

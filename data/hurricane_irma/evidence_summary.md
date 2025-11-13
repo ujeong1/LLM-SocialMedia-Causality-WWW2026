@@ -15,7 +15,6 @@ This document summarizes **directly mentioned cause–effect relations** between
 | **Strong wind → Road disruption** | “About 90% of the roads were impassable, and the strong winds uprooted numerous trees and power poles.” (Anguilla) | 【9:3†AL112017_Irma.pdf†L8-L11】 |
 | **Strong wind → Injuries to people** | “In addition to the 4 deaths, the hazards from Irma injured 23 people.” (Sint Maarten) | 【9:3†AL112017_Irma.pdf†L1-L2】 |
 | **Heavy rain → Flooding** | “Several rivers in Cuba reached major flood stage… the Zaza River… caused one of the largest measured floods of this river on record.” | 【9:15†AL112017_Irma.pdf†L7-L9】 |
-| **Heavy rain → Injuries (via flooding)** | “12 people were rescued from flood waters, and… residents were rescued from flooded homes.” | 【9:15†AL112017_Irma.pdf†L14-L15】 |
 | **Flooding → Rescue / injury events** | “Dozens of people were rescued by boats near the coast from flooding caused by storm surge and rainfall.” (Georgia) | 【9:9†AL112017_Irma.pdf†L17-L18】 |
 | **Felling of trees → Road disruption / fatalities** | “A 55-year-old man was crushed by a tree that fell on his home while he slept.” (Georgia) | 【9:9†AL112017_Irma.pdf†L12-L13】 |
 | **Strong winds → Infrastructure damage** | “Strong winds damaged the airport infrastructure, and runways were inundated.” (South Carolina) | 【9:12†AL112017_Irma.pdf†L2-L3】 |

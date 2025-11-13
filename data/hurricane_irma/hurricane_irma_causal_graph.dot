@@ -7,7 +7,6 @@ digraph HurricaneIrma_NOAA {
     "Strong wind" -> "Power disruption";
     "Strong wind" -> "Road disruption";
     "Heavy rain" -> "Flooding";
-    "Heavy rain" -> "Injuries to people";
     "Flooding" -> "Injuries to people";
     "Flooding" -> "Road disruption";
     "Felling of trees" -> "Road disruption";

@@ -1,0 +1,19 @@
+digraph HurricaneIrma_NOAA {
+    rankdir=LR;
+    node [shape=box, style=rounded, fontsize=10];
+
+    "Strong wind" -> "Felling of trees";
+    "Strong wind" -> "Damage to buildings";
+    "Strong wind" -> "Power disruption";
+    "Strong wind" -> "Road disruption";
+    "Heavy rain" -> "Flooding";
+    "Flooding" -> "Injuries to people";
+    "Flooding" -> "Road disruption";
+    "Felling of trees" -> "Road disruption";
+    "Felling of trees" -> "Injuries to people";
+    "Felling of trees" -> "Damage to buildings";
+    "Damage to buildings" -> "Injuries to people";
+    "Power disruption" -> "Road disruption";
+    "Road disruption" -> "Injuries to people";
+}
+
